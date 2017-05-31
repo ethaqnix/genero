@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm fileVersion="30100" gstVersion="30a02" name="managedform" uid="{7f8dc982-bdb9-482b-8598-df5662bf7eea}">
+  <AGSettings>
+    <DynamicProperties version="2">
+      <DynamicProperty BRDynamicPropertyType="false" description="The language input type" initialValue="" isDefaultInherited="false" isHidden="false" label="Language" name="webcomponent.cm.language" readOnly="false" type="TEXT"/>
+      <DynamicProperty BRDynamicPropertyType="false" description="The action name to raise when a clickable item is clicked by the user" initialValue="" isDefaultInherited="false" isHidden="false" label="selection action name" name="webcomponent.cm.selection" readOnly="false" type="TEXT"/>
+    </DynamicProperties>
+    <NodeInfos version="1">
+      <NodeInfo mimeType="modFD/WebComponent" properties="webcomponent.cm.language;webcomponent.cm.selection"/>
+    </NodeInfos>
+  </AGSettings>
+  <Record name="gui" uid="{e2060d0e-7aa3-43ad-8943-9fca91a7d5f2}">
+    <RecordField fieldIdRef="2" name="id" uid="{2dbcab48-cc09-4311-809d-d20e91315b1e}"/>
+    <RecordField fieldIdRef="1" name="username" uid="{d3133668-2e21-4a63-82eb-6babdf0b9410}"/>
+    <RecordField fieldIdRef="3" name="age" uid="{af1d7dda-0a9d-4f0e-9445-fdf82d25879a}"/>
+  </Record>
+  <Form gridHeight="35" gridWidth="78" name="form" text="Form">
+    <Grid gridHeight="7" gridWidth="26" name="grid1" posX="8" posY="2">
+      <Edit columnCount="1" fieldId="2" gridHeight="1" gridWidth="9" name="id" posX="3" posY="2" repeat="false" rowCount="3" stepX="1" stepY="1" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Edit fieldId="1" gridHeight="1" gridWidth="9" name="username" posX="3" posY="3" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Edit fieldId="3" gridHeight="1" gridWidth="9" name="age" posX="3" posY="4" tabIndex="-1" title="edit1" widget="Edit"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewBlADIAMAA2ADAAZAAwAGUALQA3AGEAYQAzAC0ANAAzAGEAZAAtADgAOQA0ADMALQA5AGYAYwBhADkAMQBhADcAZAA1AGYAMgB9wHegAAAAAADAUkAAAAAAAD+VgQYk3S8eAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

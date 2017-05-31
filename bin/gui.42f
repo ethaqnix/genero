@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Form name="gui.tmp" build="3.10.02" text="Form" width="13" height="7">
+  <LStr text="Form"/>
+  <Grid name="grid1" width="13" height="7">
+    <FormField name="formonly.id" colName="id" fieldId="0" sqlTabName="formonly" tabIndex="1">
+      <Edit width="9" posY="2" posX="3" gridWidth="9"/>
+    </FormField>
+    <FormField name="formonly.username" colName="username" fieldId="1" sqlTabName="formonly" tabIndex="2">
+      <Edit width="9" posY="3" posX="3" gridWidth="9"/>
+    </FormField>
+    <FormField name="formonly.age" colName="age" fieldId="2" sqlTabName="formonly" tabIndex="3">
+      <Edit width="9" posY="4" posX="3" gridWidth="9"/>
+    </FormField>
+  </Grid>
+  <RecordView tabName="formonly">
+    <Link colName="id" fieldIdRef="0"/>
+    <Link colName="username" fieldIdRef="1"/>
+    <Link colName="age" fieldIdRef="2"/>
+  </RecordView>
+  <RecordView tabName="gui">
+    <Link colName="id" fieldIdRef="0"/>
+    <Link colName="username" fieldIdRef="1"/>
+    <Link colName="age" fieldIdRef="2"/>
+  </RecordView>
+</Form>

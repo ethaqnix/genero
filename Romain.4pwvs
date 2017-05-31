@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WorkspaceViewState version="1.0">
+  <ExpandedNodes>
+    <Node path="Romain.4pw" type="pm/main-project"/>
+    <Node path="Romain.4pw/res" type="pm/group"/>
+    <Node path="Romain.4pw/res/styles" type="pm/library"/>
+    <Node path="Romain.4pw/res/webcomponents" type="pm/library"/>
+    <Node path="Romain.4pw/test" type="pm/group"/>
+    <Node path="Romain.4pw/test/test" type="pm/application"/>
+  </ExpandedNodes>
+  <OpenDocuments>
+    <Document container="true" filePath="main.4gl" locator="3:11" module="mod-ce3"/>
+    <Document container="true" filePath="Romain.xcf" locator="7:1" module="mod-ce3"/>
+  </OpenDocuments>
+  <CurrentDocument filePath="main.4gl" module="mod-ce3"/>
+</WorkspaceViewState>

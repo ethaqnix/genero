@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WorkspaceDatabase fileContentsEncoding="CP1252" version="2.0">
+<File m="main" n="main.4gl" ts="20170531142634642">
+<Fct c="1" el="40" l="22" n="main()" t="F">
+<Call c="18" l="36" n="sendGetToServer" t="F"/>
+</Fct>
+<Fct c="10" el="121" l="100" n="sendPostToServer(URL VARCHAR(100),rec RECORD)" t="F"/>
+<Fct c="10" el="98" l="68" n="sendFormToServer(URL VARCHAR(100),username STRING,pwd STRING)" t="F"/>
+<Fct c="10" el="66" l="42" n="sendGetToServer(URL VARCHAR(100))" t="F"/>
+</File>
+</WorkspaceDatabase>
